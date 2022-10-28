@@ -15,7 +15,7 @@ async function showDate() {
       month: "long",
       day: "2-digit",
     };
-    var date = cejour.toLocaleDateString("fr-FR", options);
+    var date = cejour.toLocaleDateString("en-GB", options);
     var heure =
       ("0" + cejour.getHours()).slice(-2) +
       ":" +
