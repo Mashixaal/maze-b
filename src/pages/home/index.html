@@ -1,30 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/output.css" />
-    <link rel="shortcut icon" href=".././../assets/img/logo-s.png" type="lettre S">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maze Bank</title>
-    <!----------------------------- Branch dev---------------------------------------->
-  </head>
-  <body
-    class="font-thin bg-bank-body bg-cover bg-center backdrop-blur-sm "
-    data-aos="zoom-out-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
-    data-aos-anchor-placement="top-center"
-  >
-    <!--------------------------------- header ------------------------------------->
-    <header
-      class="grid grid-cols-3 h-20 "
-      data-aos="fade-in"
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="stylesheet" href="./assets/css/output.css" />
+      <link
+        rel="shortcut icon"
+        href=".././../assets/img/logo-png.png"
+        type="lettre S"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Maze Bank</title>
+      <!----------------------------- Branch dev---------------------------------------->
+    </head>
+    <body
+      class="font-thin bg-bank-body bg-cover bg-center backdrop-blur-sm"
+      data-aos="zoom-out-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="1000"
@@ -33,314 +25,401 @@
       data-aos-once="false"
       data-aos-anchor-placement="top-center"
     >
-      <div class="pl-3 mt-2">
-        <!-- <img
-          src="../../assets/img/logo-png.png"
-          alt="profil"
-          height="auto"
-          width="10%"
-          class="rounded-full"
-        /> -->
-      </div>
-      <h1
-        class="flex justify-center font-serif  text-3xl md:text-4xl  uppercase  p-10 text-gray-900  pt-5 font-bold"
-      >
-         Maze
-         <span class="text-red-700 pl-3 -hue-rotate-15 invert">Bank</span>
-      </h1>
-      <div class="lg:flex lg:flex-row-reverse lg:mt-2 lg:m-2 lg:pt-4 lg:font-semibold" id="lg:day-date"></div>
-    </header>
-<!-- ----------------------- -->
-<h1 class="lg:flex lg:justify-center grid grid-rows-1 font-bold border-8 border-red-600 shadow-lg lg:mb-4 p-4 backdrop-blur-xl lg:text-3xl uppercase font-serif bg-yellow-400/30 mt-10 hue-rotate-180 saturate-200">Space Information</h1>
-
-    <section class="shadow-2xl">
-      
-      <div class="grid grid-rows-1 lg:grid-cols-2 mr-96 " >
-        <div class="flex flex-col justify-center mt-10 col-start-2 hue-rotate-180" 
-        data-aos="fade-right"
+      <!--------------------------------- header ------------------------------------->
+      <header
+        class="lg:grid lg:grid-cols-3 h-20"
+        data-aos="fade-in"
         data-aos-offset="200"
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="false"
-        data-aos-anchor-placement="top-center">
-
-          <span class="flex justify-center border-x-4  border-red-500 border-t-4 border-t-orange-500 border-b-4 border-b-orange-500 space-y-4 font-bold backdrop-blur-xl bg-yellow-400/30">
-            <div class="flex flex-col pt-4 ml-3 mr-3">
-
-              <input id="input-name"
-              placeholder="Your first and last name"
-              type="text"
-            class="border-2 border-customYellow-yellowlight pl-1">
-
-            <input id="input-compte"
-            placeholder="Your account number"
-            type="text"
-            class="border-2 border-customYellow-yellowlight my-4 pl-1">
-            
-            <input id="input-iban"
-            placeholder="Your iban"
-            type="text"
-            class="border-2 border-customYellow-yellowlight pl-1">
-
-            <input id="input-banque"
-            placeholder="Your bank code"
-            type="text"
-            class="border-2 border-customYellow-yellowlight my-4 pl-1">
-
-            <input id="input-guichet"
-            placeholder="Your branch code"
-            type="text"
-            class="border-2 border-customYellow-yellowlight pl-1">
-            
-            <input id="input-rib"
-            placeholder="Your RIB key"
-            type="text"
-            class="border-2 border-customYellow-yellowlight my-4 pl-1">
-            
-            <input id="input-bic"
-            placeholder="Your BIC"
-            type="text"
-            class="border-2 border-customYellow-yellowlight pl-1">
-            
-            <input id="input-solde"
-            placeholder="Your balance"
-            type="text"
-            class="my-4 border-2 border-customYellow-yellowlight pl-1">
-          </div>
-          </span>
-          <button id="button-valider1" class="flex justify-center font-bold pt-4 ">
-            <span class="border-4 border-red-600 bg-orange-300 px-2 ">To validate</span> 
-        </button>
+        data-aos-anchor-placement="top-center"
+      >
+        <div class="pl-3 mt-2">
+          <!-- <img
+          src="../../assets/img/logo-png.png"
+          alt="profil"
+          height="auto"
+          width="10%"
+          class="rounded-full"
+        /> -->
         </div>
-        <div
-        class="flex justify-center font-normal col-start-5 col-span-2 mt-10"
-          data-aos="fade-left"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="false"
-          data-aos-anchor-placement="top-center"
+        <h1
+          class="lg:flex lg:justify-center flex justify-center font-serif text-3xl md:text-4xl uppercase p-10 text-gray-900 pt-5 font-bold"
         >
-          <table
-            class="drop-shadow-lg border-separate border-red-500 border-spacing-3 border-8 border-slate-500 font-semibold hue-rotate-180 backdrop-blur-xl bg-yellow-400/30"
+          Maze
+          <span class="text-red-700 pl-3 -hue-rotate-15 invert">Bank</span>
+        </h1>
+        <div
+          class="lg:flex lg:flex-row-reverse lg:mt-2 lg:m-2 lg:pt-4 lg:font-semibold"
+          id="lg:day-date"
+        ></div>
+      </header>
+      <!-- ----------------------- -->
+      <h1
+        class="lg:flex lg:justify-center grid grid-rows-1 font-bold border-8 border-red-600 shadow-lg lg:mb-4 p-4 backdrop-blur-xl lg:text-3xl text-center uppercase font-serif bg-yellow-400/30 mt-10 hue-rotate-180 saturate-200"
+      >
+        Space Information
+      </h1>
+
+      <section class="flex justify-center shadow-2xl">
+        <div class="lg:grid lg:grid-rows-1 lg:grid-cols-2 mr-96">
+          <div
+            class="flex flex-col justify-center mt-10 col-start-2 hue-rotate-180"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
           >
-            <thead>
-              <tr>
-                <th
-                  class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-bold"
-                >
-                Full name
-                </th>
-                <th
-                  class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-semibold"
-                >
-                  ABUBAKAR Safwan
-                </th>
-              </tr>
-              <tr>
-                <th
-                  class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-bold"
-                >
-                Account number
-                </th>
-                <th
-                  class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-semibold"
-                >
-                  258698566912
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
-                >
-                  Iban
-                </td>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
-                >
-                  FR14 2004 1010 0505 0001 3M02 606
-                </td>
-              </tr>
-              <tr>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
-                >
-                Bank code
-                </td>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
-                >
-                  86457
-                </td>
-              </tr>
-              <tr>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
-                >
-                Branch code
-                </td>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
-                >
-                  30546
-                </td>
-              </tr>
-              <tr>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
-                >
-                RIB key
-                </td>
-                <td
-                  class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
-                >
-                  34
-                </td>
-              </tr>
-             
-          </tr>
-              <td
-              class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+            <span
+              class="lg:flex lg:justify-center flex ml-96 border-x-4 border-red-500 border-t-4 border-t-orange-500 border-b-4 border-b-orange-500 space-y-4 font-bold backdrop-blur-xl bg-yellow-400/30"
             >
-            BIC
-            </td>
-            <td
-              class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+              <div class="flex flex-col pt-4 ml-3 mr-3">
+                <input
+                  id="input-name"
+                  placeholder="Your first and last name"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight pl-1"
+                />
+
+                <input
+                  id="input-compte"
+                  placeholder="Your account number"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight my-4 pl-1"
+                />
+
+                <input
+                  id="input-iban"
+                  placeholder="Your iban"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight pl-1"
+                />
+
+                <input
+                  id="input-banque"
+                  placeholder="Your bank code"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight my-4 pl-1"
+                />
+
+                <input
+                  id="input-guichet"
+                  placeholder="Your branch code"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight pl-1"
+                />
+
+                <input
+                  id="input-rib"
+                  placeholder="Your RIB key"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight my-4 pl-1"
+                />
+
+                <input
+                  id="input-bic"
+                  placeholder="Your BIC"
+                  type="text"
+                  class="border-2 border-customYellow-yellowlight pl-1"
+                />
+
+                <input
+                  id="input-solde"
+                  placeholder="Your balance"
+                  type="text"
+                  class="my-4 border-2 border-customYellow-yellowlight pl-1"
+                />
+              </div>
+            </span>
+            <button
+              id="button-valider1"
+              class="flex justify-center font-bold pt-4 ml-96"
             >
-            P S S T F R P P L I L
-            </td>
-          </tr>
-              <td
-              class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+              <span class="border-4 border-red-600 bg-orange-300 px-2"
+                >To validate</span
+              >
+            </button>
+          </div>
+          <div
+            class="flex justify-center font-normal col-start-5 col-span-2 mt-10"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <table
+              class="grid grid-flow-row ml-96 mt-5 drop-shadow-lg border-separate border-red-500 border-spacing-3 border-8 border-slate-500 font-semibold hue-rotate-180 backdrop-blur-xl bg-yellow-400/30"
             >
-            Balance
-            </td>
-            <td
-              class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
-            >
-              1000£
-            </td>
-          </tr>
-            </tbody>
-          </table>
+              <thead>
+                <tr>
+                  <th
+                    class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    Full name
+                  </th>
+                  <th
+                    class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-semibold"
+                  >
+                    ABUBAKAR Safwan
+                  </th>
+                </tr>
+                <tr>
+                  <th
+                    class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    Account number
+                  </th>
+                  <th
+                    class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-semibold"
+                  >
+                    258698566912
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    Iban
+                  </td>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+                  >
+                    FR14 2004 1010 0505 0001 3M02 606
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    Bank code
+                  </td>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+                  >
+                    86457
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    Branch code
+                  </td>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+                  >
+                    30546
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    RIB key
+                  </td>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+                  >
+                    34
+                  </td>
+                </tr>
+
+                <tr>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    BIC
+                  </td>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+                  >
+                    P S S T F R P P L I L
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
+                  >
+                    Balance
+                  </td>
+                  <td
+                    class="border border-slate-700 bg-orange-200 pl-1 saturate-200"
+                  >
+                    1000£
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
-      
 
-      <div class="grid grid-cols-2 mt-20 lg:w-full hue-rotate-180 saturate-200">
-
-        <form class="flex justify-center p-5 font-bold">
-          <label for="account-number"></label>
+        <div
+          class="grid grid-cols-2 mt-20 lg:w-full hue-rotate-180 saturate-200"
+        >
+          <form
+            class="lg:flex lg:justify-center lg:p-5 lg:font-bold flex justify-center p-5 font-bold"
+          >
+            <label for="account-number"></label>
+            <input
+              id="input-deposite"
+              placeholder="Deposit money"
+              class="border-2 border-customYellow-yellowlight bg-gray-50 mr-2 pl-1"
+              type="number"
+            />
+            <button
+              class="flex justify-center border-4 border-red-600 bg-orange-300 px-2 saturate-200"
+              id="submit-number"
+              type="button"
+            >
+              To file
+            </button>
+          </form>
+          <form class="flex justify-center p-5 font-bold">
+            <label for="account-number"></label>
+            <input
+              id="input-withdraw"
+              placeholder="Withdraw money"
+              class="border-2 border-customYellow-yellowlight bg-gray-50 mr-2 pl-1"
+              type="number"
+            />
+            <button
+              class="border-4 border-red-600 bg-orange-300 px-2 saturate-200"
+              id="submit-number2"
+              type="button"
+            >
+              Remove
+            </button>
+          </form>
+        </div>
+      </section>
+      <!------------------------------------- parti 2 --------------------------------------------->
+      <h1
+        class="lg:flex lg:justify-center grid grid-rows-1 font-bold border-8 border-red-600 shadow-lg lg:mb-4 p-4 backdrop-blur-xl lg:text-3xl text-center uppercase font-serif bg-yellow-400/30 mt-10 hue-rotate-180 saturate-200"
+      >
+        Space Transfer
+      </h1>
+      <section class="flex justify-center mr-32 hue-rotate-180 saturate-200">
+        <div class="w-2/12 font-bold mt-3">
+          <h2
+            class="border-4 border-red-600 shadow-lg mb-4 bg-orange-300 inline-block py-4 px-4"
+          >
+            Please Add Beneficiary
+          </h2>
           <input
-          id="input-deposite"
-          placeholder="Deposit money"
-          class="border-2 border-customYellow-yellowlight bg-gray-50 mr-2 pl-1"
-          type="number"
+            id="input-beneficiaire"
+            type="text"
+            placeholder="Beneficiary's name"
+            class="border-2 border-customYellow-yellowlight pl-1"
+          />
+          <input
+            id="input-numero de beneficiare pl-1"
+            type="number"
+            placeholder="Account number"
+            class="border-2 border-customYellow-yellowlight my-4 pl-1"
+          />
+          <input
+            id="input-solde-beneficiare"
+            placeholder="Balance"
+            type="number"
+            class="border-2 border-customYellow-yellowlight pl-1"
           />
           <button
-          class="border-4 border-red-600 bg-orange-300 px-2 saturate-200"
-          id="submit-number"
-          type="button"
+            id="button-valider2"
+            class="font-bold border-4 border-red-500 bg-orange-300 my-4 block px-2"
           >
-          To file
-        </button>
-      </form>
-      <form class="flex justify-center p-5 font-bold">
-        <label for="account-number"></label>
-        <input
-        id="input-withdraw"
-        placeholder="Withdraw money"
-        class="border-2 border-customYellow-yellowlight bg-gray-50 mr-2 pl-1"
-        type="number"
-        />
-        <button
-        class="border-4 border-red-600 bg-orange-300 px-2  saturate-200"
-        id="submit-number2"
-        type="button"
-        >
-        Remove
-        </button>
-      </form>
-    </div>
-  </section>
-  <!------------------------------------- parti 2 --------------------------------------------->
-  <h1 class="flex justify-center font-bold border-8 border-red-600 text-3xl uppercase font-serif shadow-lg mb-4 p-4 backdrop-blur-xl bg-yellow-400/30   hue-rotate-180 saturate-200">Space Transfer</h1>
-    <section class="flex justify-center hue-rotate-180 saturate-200">
-      <div class="w-2/12 font-bold mt-3 ">
-        <h2 class="border-4 border-red-600 shadow-lg mb-4  bg-orange-300 inline-block py-2 px-2" >Please Add Beneficiary </h2>
-          <input id="input-beneficiaire"
-          type="text"
-          placeholder="Beneficiary's name"
-          class="border-2 border-customYellow-yellowlight pl-1"
+            To validate
+          </button>
+          <select
+            class="text-black rounded-lg h-max bg-red-200 border-4 border-double border-indigo-700"
+            name="pets"
+            id="pet-select"
           >
-          <input id="input-numero de beneficiare pl-1"
-          type="number"
-          placeholder="Account number"
-          class=" border-2 border-customYellow-yellowlight my-4 pl-1"
-          >
-          <input id="input-solde-beneficiare"
-          placeholder="Balance"
-          type="number"
-          class="border-2 border-customYellow-yellowlight pl-1">
-          <button id="button-valider2" class="font-bold border-4 border-red-500 bg-orange-300 my-4 block px-2">To validate</button>
-            <select class="text-black rounded-lg h-max bg-red-200 border-4 border-double border-indigo-700" name="pets" id="pet-select">
-              <option value="">-- Choose an option--</option>
-              <optgroup label="men" class="text-blue-800">
-                <option value="">Gorkem</option>
-                <option value="">Emir</option>
-              </optgroup>
-              <optgroup label="food" class="text-blue-800">
-                <option value="gorkem">Pizza</option>
-                <option value="emir">Kebab</option>
-              </optgroup>
-              <!-- <option value="turc">Gorkem</option>
+            <option value="">-- Choose an option--</option>
+            <optgroup label="men" class="text-blue-800">
+              <option value="">Gorkem</option>
+              <option value="">Emir</option>
+            </optgroup>
+            <optgroup label="food" class="text-blue-800">
+              <option value="gorkem">Pizza</option>
+              <option value="emir">Kebab</option>
+            </optgroup>
+            <!-- <option value="turc">Gorkem</option>
               <option value="turc">Emir</option>
               <option value="italien">Killein</option>
               <option value="food1">Kebab</option>
               <option value="food2">Pizza</option>
               <option value="food3">cuscus</option> -->
-            </select>
-      </div>
-    </section>
-        <!-- ---------------------- footer ----------------------->
-        <footer class=" grid grid-cols-3 bg-blue-400 saturate-150 pr-28 mt-2 ">
-          <div class="pt-2">
-            <!-- <img
+          </select>
+        </div>
+      </section>
+      <!-- ---------------------- footer ----------------------->
+      <footer class="grid grid-cols-3 bg-blue-400 saturate-150 pr-28 mt-2">
+        <div class="pt-2">
+          <!-- <img
               src="../../assets/img/logo-png.png"
               alt="profil"
               height="auto"
               width="50px"
               class="rounded-full ml-5"
             /> -->
-          </div>
-          <div class="flex flex-col justify-center items-center h-full">
-            <span class="italic font-bold">Copyright</span>
-            <div class="pt-2 ">
-                <span>
-                <a href="https://www.linkedin.com/in/abubakar-safwan-376454250/" class="mr-2" target="_blank" rel="noreferrer noopener">
-                  <i class="fa-brands fa-linkedin fa-beat text-customGreenNormal-greennormal"></i>
-                </a>
-              </span>
-              
-                <span class="space-4">
-                <a href="https://github.com/Mashixaal" class="" target="_blank" rel="noreferrer noopener">
-                  <i class="fa-brands mr-3 fa-github fa-beat text-customGreenNormal-greennormal"></i>
-                </a>
-                </span>
+        </div>
+        <div class="flex flex-col justify-center items-center h-full">
+          <span class="italic font-bold">Copyright</span>
+          <div class="pt-2">
+            <span>
+              <a
+                href="https://www.linkedin.com/in/abubakar-safwan-376454250/"
+                class="mr-2"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i
+                  class="fa-brands fa-linkedin fa-beat text-customYellow-yellowlight"
+                ></i>
+              </a>
+            </span>
 
-                <span>
-                <a href="https://agence-eclair.netlify.app/" class="" target="_blank" rel="noreferrer noopener">
-                  <i class="fa-solid fa-link fa-beat text-customGreenNormal-greennormal"></i>
-                </a>
-                </span>
-            </div>
+            <span class="space-4">
+              <a
+                href="https://github.com/Mashixaal"
+                class=""
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i
+                  class="fa-brands mr-3 fa-github fa-beat text-customYellow-yellowlight"
+                ></i>
+              </a>
+            </span>
+
+            <span>
+              <a
+                href="https://agence-eclair.netlify.app/"
+                class=""
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <i
+                  class="fa-solid fa-link fa-beat text-customYellow-yellowlight"
+                ></i>
+              </a>
+            </span>
           </div>
-    </footer>
-  </body>
+        </div>
+      </footer>
+    </body>
+  </html>
 </html>
