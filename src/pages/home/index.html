@@ -59,13 +59,13 @@
       </header>
       <!-- ----------------------- -->
       <h1
-        class="lg:flex lg:justify-center grid grid-rows-1 font-bold border-8 border-red-600 shadow-lg lg:mb-4 p-4 backdrop-blur-xl lg:text-3xl text-center uppercase font-serif bg-yellow-400/30 mt-10 hue-rotate-180 saturate-200"
+        class="lg:flex lg:justify-center grid grid-rows-1 lg:font-bold lg:border-8 lg:border-red-600 lg:shadow-lg font-bold border-8 border-red-600 shadow-lg lg:mb-4 mb-4 p-4  backdrop-blur-xl lg:text-3xl text-center uppercase font-serif bg-yellow-400/30 mt-10 hue-rotate-180 saturate-200"
       >
         Space Information
       </h1>
 
-      <section class="flex justify-center shadow-2xl">
-        <div class="lg:grid lg:grid-rows-1 lg:grid-cols-2 mr-96">
+      <section class="lg:flex lg:flex-col lg:justify-center lg:items-center  shadow-2xl">
+        <div class="lg:grid lg:grid-rows-1 lg:grid-cols-2 ">
           <div
             class="flex flex-col justify-center mt-10 col-start-2 hue-rotate-180"
             data-aos="fade-right"
@@ -78,9 +78,9 @@
             data-aos-anchor-placement="top-center"
           >
             <span
-              class="lg:flex lg:justify-center flex ml-96 border-x-4 border-red-500 border-t-4 border-t-orange-500 border-b-4 border-b-orange-500 space-y-4 font-bold backdrop-blur-xl bg-yellow-400/30"
+              class="lg:flex flex lg:justify-center mx-2 lg:border-x-4 border-x-4 lg:border-red-500 border-red-500 lg:border-t-4 border-t-4 lg:border-t-orange-500 border-t-orange-500 border-b-4 lg:border-b-4 lg:border-b-orange-500 border-b-orange-500 lg:space-y-4 lg:font-bold font-bold lg:backdrop-blur-xl backdrop-blur-xl lg:bg-yellow-400/30 bg-yellow-400/30"
             >
-              <div class="flex flex-col pt-4 ml-3 mr-3">
+              <div class="lg:flex mt-4 lg:flex-col items-center lg:pt-4 lg:ml-3 lg:mr-3">
                 <input
                   id="input-name"
                   placeholder="Your first and last name"
@@ -140,7 +140,7 @@
             </span>
             <button
               id="button-valider1"
-              class="flex justify-center font-bold pt-4 ml-96"
+              class="lg:flex lg:justify-center flex justify-center font-bold lg:pt-4 pt-4 lg:ml-96"
             >
               <span class="border-4 border-red-600 bg-orange-300 px-2"
                 >To validate</span
@@ -148,7 +148,7 @@
             </button>
           </div>
           <div
-            class="flex justify-center font-normal col-start-5 col-span-2 mt-10"
+            class="lg:flex lg:justify-center lg:font-normal flex justify-center font-normal lg:col-start-4 lg:col-span-2 lg:mt-10"
             data-aos="fade-left"
             data-aos-offset="200"
             data-aos-delay="50"
@@ -159,35 +159,33 @@
             data-aos-anchor-placement="top-center"
           >
             <table
-              class="grid grid-flow-row ml-96 mt-5 drop-shadow-lg border-separate border-red-500 border-spacing-3 border-8 border-slate-500 font-semibold hue-rotate-180 backdrop-blur-xl bg-yellow-400/30"
+              class="lg:grid grid grid-flow-row lg:ml-96 mt-5 mx-2 drop-shadow-lg border-separate border-red-500 border-spacing-3 border-8 border-slate-500 font-semibold hue-rotate-180 backdrop-blur-xl bg-yellow-400/30"
             >
               <thead>
                 <tr>
-                  <th
+                  <td
                     class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-bold"
                   >
                     Full name
-                  </th>
-                  <th
+                  </td>
+                  <td
                     class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-semibold"
                   >
                     ABUBAKAR Safwan
-                  </th>
+                  </td>
                 </tr>
                 <tr>
-                  <th
+                  <td
                     class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-bold"
                   >
                     Account number
-                  </th>
-                  <th
+                  </td>
+                  <td
                     class="border border-slate-600 bg-orange-200 pl-1 saturate-200 font-semibold"
                   >
                     258698566912
-                  </th>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
                 <tr>
                   <td
                     class="border border-slate-700 bg-orange-200 pl-1 saturate-200 font-bold"
@@ -261,33 +259,33 @@
                     1000£
                   </td>
                 </tr>
-              </tbody>
             </table>
           </div>
         </div>
 
         <div
-          class="grid grid-cols-2 mt-20 lg:w-full hue-rotate-180 saturate-200"
+          class="lg:grid lg:grid-cols-2 lg:mt-20 lg:w-full hue-rotate-180 saturate-200"
         >
           <form
-            class="lg:flex lg:justify-center lg:p-5 lg:font-bold flex justify-center p-5 font-bold"
+            class="lg:flex lg:justify-center lg:p-5 lg:font-bold flex justify-center mt-8 font-bold"
           >
             <label for="account-number"></label>
             <input
               id="input-deposite"
               placeholder="Deposit money"
-              class="border-2 border-customYellow-yellowlight bg-gray-50 mr-2 pl-1"
+              class="border-2 border-customYellow-yellowlight bg-gray-50 pl-1 inline-block mr-2"
               type="number"
             />
             <button
-              class="flex justify-center border-4 border-red-600 bg-orange-300 px-2 saturate-200"
+              class="lg:flex flex lg:justify-center border-4 border-red-600 bg-orange-300 lg:px-2 px-2 lg:saturate-200 saturate-200 w-20"
               id="submit-number"
               type="button"
             >
               To file
             </button>
           </form>
-          <form class="flex justify-center p-5 font-bold">
+          
+          <form class="lg:flex lg:justify-center lg:p-5 lg:font-bold flex justify-center mt-8 font-bold">
             <label for="account-number"></label>
             <input
               id="input-withdraw"
@@ -311,10 +309,10 @@
       >
         Space Transfer
       </h1>
-      <section class="flex justify-center mr-32 hue-rotate-180 saturate-200">
-        <div class="w-2/12 font-bold mt-3">
+      <section class="lg:flex lg:justify-center lg:items-center ml-12 hue-rotate-180 saturate-200">
+        <div class="lg:w-2/12 font-bold mt-3">
           <h2
-            class="border-4 border-red-600 shadow-lg mb-4 bg-orange-300 inline-block py-4 px-4"
+            class=" border-4 border-red-600 shadow-lg mb-4 bg-orange-300 inline-block py-4 px-4 h-20 "
           >
             Please Add Beneficiary
           </h2>
